@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduGenie AI</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Welcome to EduGenie 🧠✨</h1>
+
+        <p class="subtitle">
+            Your personal AI tutor for learning support!
+        </p>
+
+
+        <!-- ASK QUESTION -->
+
+        <section>
+            <h2>Ask EduGenie a Question</h2>
+
+            <div class="input-box">
+                <input
+                    type="text"
+                    id="question"
+                    placeholder="Why is the sky blue?"
+                >
+
+                <button onclick="askQuestion()">
+                    Get Answer
+                </button>
+            </div>
+
+            <div class="result" id="answer">
+                Your answer will appear here.
+            </div>
+        </section>
+
+
+        <!-- EXPLANATION -->
+
+        <section>
+            <h2>Need an Explanation?</h2>
+
+            <div class="input-box">
+                <input
+                    type="text"
+                    id="topic"
+                    placeholder="Photosynthesis"
+                >
+
+                <button onclick="explainTopic()">
+                    Explain
+                </button>
+            </div>
+
+            <div class="result" id="explanation">
+                Your explanation will appear here.
+            </div>
+        </section>
+
+
+        <!-- SUMMARY -->
+
+        <section>
+            <h2>Summarize a Paragraph</h2>
+
+            <div class="input-box">
+
+                <textarea
+                    id="paragraph"
+                    placeholder="Paste your paragraph here..."
+                ></textarea>
+
+                <button onclick="summarize()">
+                    Summarize
+                </button>
+
+            </div>
+
+            <div class="result" id="summary">
+                Your summary will appear here.
+            </div>
+        </section>
+
+
+        <!-- QUIZ -->
+
+        <section>
+            <h2>Generate a Quiz</h2>
+
+            <div class="input-box">
+
+                <input
+                    type="text"
+                    id="quizTopic"
+                    placeholder="Solar System"
+                >
+
+                <button onclick="generateQuiz()">
+                    Generate Quiz
+                </button>
+
+            </div>
+
+            <div class="result" id="quiz">
+                Your quiz will appear here.
+            </div>
+        </section>
+
+
+        <!-- LEARNING PATH -->
+
+        <section>
+            <h2>Learning Path</h2>
+
+            <div class="input-box">
+
+                <input
+                    type="text"
+                    id="learningTopic"
+                    placeholder="Python Programming"
+                >
+
+                <button onclick="learningPath()">
+                    Get Learning Path
+                </button>
+
+            </div>
+
+            <div class="result" id="learning">
+                Your learning path will appear here.
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="/static/app.js"></script>
+
+</body>
+</html>

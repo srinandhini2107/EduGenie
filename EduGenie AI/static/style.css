@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f2f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #173b68;
+}
+
+h3 {
+    color: #222;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.input-box {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-box button {
+    padding: 15px 25px;
+    background: #3478e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    background: #245fc0;
+}
+
+.result {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+
+/* =========================
+   QUIZ
+   ========================= */
+
+.quiz-card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.quiz-card h3 {
+    color: #3478e5;
+    margin-top: 0;
+}
+
+.question-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.quiz-options {
+    list-style: none;
+    padding: 0;
+}
+
+.quiz-options li {
+    margin: 8px 0;
+}
+
+.quiz-option {
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quiz-option:hover {
+    background: #eef4ff;
+}
+
+.quiz-option:disabled {
+    cursor: not-allowed;
+}
+
+.quiz-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.correct-answer {
+    color: green;
+}
+
+.wrong-answer {
+    color: red;
+}
+
+.quiz-explanation {
+    background: #f5f5f5;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+
+/* =========================
+   RECOMMENDATIONS
+   ========================= */
+
+.recommendation-list {
+    padding-left: 25px;
+}
+
+.recommendation-list li {
+    margin: 10px 0;
+    font-size: 17px;
+}
